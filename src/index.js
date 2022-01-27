@@ -20,7 +20,7 @@ getImage()
     .then(response => {
         //se crea el elemento llamado img para mostrarlo en pantalla
         const img = document.createElement('img')
-        //se asigna el src traido desde la api
+        //se asigna el src traído desde la api
         img.src = response.url
         //se agrega el img al body del DOM
         document.body.append(img)
